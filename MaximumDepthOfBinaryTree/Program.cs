@@ -1,6 +1,4 @@
-﻿
-
-using Datastruture;
+﻿using Datastruture;
 
 namespace MaximumDepthOfBinaryTree
 {
@@ -16,7 +14,16 @@ namespace MaximumDepthOfBinaryTree
     {
         public int MaxDepth(TreeNode root)
         {
+            if(root == null)
+            {
+                return 0;
+            }
+            int LeftDepth = this.MaxDepth(root.left); 
+            int RightDepth = this.MaxDepth(root.right);
 
+            return 1 + Math.Max(LeftDepth, RightDepth);
         }
+
+        
     }
 }
