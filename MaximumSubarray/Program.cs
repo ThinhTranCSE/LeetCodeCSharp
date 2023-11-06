@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int[] nums = new int[] { 2, -3, 1, 3, -3, 2, 2, 1 };
+            int[] nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
             Console.WriteLine(new Solution().MaxSubArray(nums));
         }
     }
@@ -13,42 +13,14 @@
     {
         public int MaxSubArray(int[] nums)
         {
-            int Start = 0;
-            int End = 0;
-            int CurrentValue = nums[0];
-            int Max = CurrentValue;
-            while (End < nums.Length)
+            int CurrentSum = nums[0];
+            int MaxSum = nums[0];
+            for(int i = 1; i < nums.Length; i++)
             {
-                if (Start == End)
-                {
-                    End++;
-                    if(End < nums.Length)
-                    { 
-                        if (nums[End] < 0)
-                        {
-                            Max = Math.Max(Max, CurrentValue);
-                        }
-                        CurrentValue += nums[End];
-                    }
-                }
-                else
-                {
-                    int ForwardStart = CurrentValue - nums[Start];
-                    int ForwardEnd = End + 1 < nums.Length ? CurrentValue + nums[End + 1] : Int32.MinValue;  
-                    if(ForwardStart > ForwardEnd )
-                    {
-                        Start++;
-                        CurrentValue = ForwardStart;
-                    }
-                    else
-                    {
-                        End++;
-                        CurrentValue = ForwardEnd;
-                    }
-                }
-                Max = Math.Max(Max, CurrentValue);
+                CurrentSum = Math.Max(nums[i], CurrentSum + nums[i]);
+                MaxSum = Math.Max(MaxSum, CurrentSum);
             }
-            return Max;
+            return MaxSum;
         }
     }
 }
