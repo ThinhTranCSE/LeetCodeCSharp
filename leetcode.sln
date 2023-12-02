@@ -31,9 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumProductSubarray", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMinimumInRotatedSortedArray", "FindMinimumInRotatedSortedArray\FindMinimumInRotatedSortedArray.csproj", "{43B01C55-6592-4BE7-A142-90982FC99322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthSmallestElementInABST", "KthSmallestElementInABST\KthSmallestElementInABST.csproj", "{84C40DF0-44C3-4FC7-B09E-203A9C2105BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthSmallestElementInABST", "KthSmallestElementInABST\KthSmallestElementInABST.csproj", "{84C40DF0-44C3-4FC7-B09E-203A9C2105BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowestCommonAncestorOfABinarySearchTree", "LowestCommonAncestorOfABinarySearchTree\LowestCommonAncestorOfABinarySearchTree.csproj", "{ACCF2D97-375F-48D7-9CE9-E866A25C06AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LowestCommonAncestorOfABinarySearchTree", "LowestCommonAncestorOfABinarySearchTree\LowestCommonAncestorOfABinarySearchTree.csproj", "{ACCF2D97-375F-48D7-9CE9-E866A25C06AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4Sum", "4Sum\4Sum.csproj", "{1BF58A7C-69CF-4105-BCF6-01DF6137DA38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3Sum", "3Sum\3Sum.csproj", "{04C27EB8-126F-4A05-BD91-70485BC9E994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidPalindrome", "ValidPalindrome\ValidPalindrome.csproj", "{FF924E77-155F-413C-AB46-C0F6EA96B69D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +111,18 @@ Global
 		{ACCF2D97-375F-48D7-9CE9-E866A25C06AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACCF2D97-375F-48D7-9CE9-E866A25C06AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACCF2D97-375F-48D7-9CE9-E866A25C06AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF58A7C-69CF-4105-BCF6-01DF6137DA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF58A7C-69CF-4105-BCF6-01DF6137DA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF58A7C-69CF-4105-BCF6-01DF6137DA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF58A7C-69CF-4105-BCF6-01DF6137DA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C27EB8-126F-4A05-BD91-70485BC9E994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C27EB8-126F-4A05-BD91-70485BC9E994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C27EB8-126F-4A05-BD91-70485BC9E994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C27EB8-126F-4A05-BD91-70485BC9E994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF924E77-155F-413C-AB46-C0F6EA96B69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF924E77-155F-413C-AB46-C0F6EA96B69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF924E77-155F-413C-AB46-C0F6EA96B69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF924E77-155F-413C-AB46-C0F6EA96B69D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
