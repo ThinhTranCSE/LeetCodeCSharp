@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfIslands", "NumberOf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictTheWinner", "PredictTheWinner\PredictTheWinner.csproj", "{A781AF8A-68CB-4518-BF6B-FFD81D969C39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfProvinces", "NumberOfProvinces\NumberOfProvinces.csproj", "{153C699A-F77A-4560-AD5E-7DB6370DDE63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -475,6 +477,18 @@ Global
 		{A781AF8A-68CB-4518-BF6B-FFD81D969C39}.Release|x64.Build.0 = Release|Any CPU
 		{A781AF8A-68CB-4518-BF6B-FFD81D969C39}.Release|x86.ActiveCfg = Release|Any CPU
 		{A781AF8A-68CB-4518-BF6B-FFD81D969C39}.Release|x86.Build.0 = Release|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Debug|x64.Build.0 = Debug|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Debug|x86.Build.0 = Debug|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Release|x64.ActiveCfg = Release|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Release|x64.Build.0 = Release|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Release|x86.ActiveCfg = Release|Any CPU
+		{153C699A-F77A-4560-AD5E-7DB6370DDE63}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
